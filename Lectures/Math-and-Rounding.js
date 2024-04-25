@@ -71,3 +71,12 @@ console.log((2.345).toFixed(2)); // 2.35
 console.log(+(2.345).toFixed(2)); // 2.35
 
 // APPLIED MATH.FLOOR TO THE LOAN FUNCTION IN THE BANKIST APP AND ALSO TOFIXED METHOD TO THE DISPLAYED VALUES.
+
+// NEXT LECTURE : THE REMAINDER OPERATOR:
+const evenOdd = (num) => {
+  if (num % 2 === 0) {
+    console.log(`${num} is Even Number`);
+  } else {
+    console.log(`${num} is odd number`);
+  }
+};
