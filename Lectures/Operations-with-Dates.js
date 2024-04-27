@@ -1,0 +1,13 @@
+"use strict";
+
+const future = new Date(2037, 10, 19, 15, 23);
+// THE PLUS OPR CONVERTS THIS TO TIMESTAMP AND THEN WE CAN DO OPERATIONS WITH IT.
+console.log(+future);
+
+// FUNCTION THAT CALCULATES THE DAY PASSED BETWEEN TWO GIVEN DATES
+const calcDayPassed = (date1, date2) => Math.abs(date2 - date1) / 86400000;
+
+const days1 = calcDayPassed(new Date(2037, 3, 30), new Date(2037, 3, 20));
+console.log(days1);
+
+// THIS FUNCTION AND OPERATION IS IMPLEMENTED AND IMPROVED IN THE BANKIST APP PROJECT , TO SHOW THE THE TRANSACTION HISTORY , LIKE YESTERDAY , TWO DAUS AGO OR DATE .
